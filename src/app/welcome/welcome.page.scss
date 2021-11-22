@@ -1,0 +1,29 @@
+.heading {
+  margin-top: 10vh;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    color: #838383;
+  }
+}
+
+.log {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.email-login {
+  text-align: center;
+  p {
+    color: #838383;
+  }
+
+  .login {
+    width: 85%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.6rem;
+  }
+}

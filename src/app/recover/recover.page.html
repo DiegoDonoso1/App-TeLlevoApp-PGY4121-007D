@@ -1,0 +1,20 @@
+<ion-content>
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="/home"></ion-back-button>
+  </ion-buttons>
+  <div class="heading">
+    <h1>Recuperar</h1>
+    <p>Por favor ingrese su correo para restablecer su contraseña </p>
+  </div>
+  <div class="email-login">
+    <p>Ingresa tu correo</p>
+    <div class="formfield">
+      <input type="text" name="email" id="email" autocomplete="off">
+      <label for="email" placeholder="Correo">Correo</label>
+    </div>
+    <div class="login-button">
+      <ion-button color="success"class="login" (click)="Loading()">Recuperar</ion-button>
+    </div>
+    <ion-button fill="clear" routerLink="/login"><ion-icon name="chevron-back-outline"></ion-icon>Volver</ion-button>
+  </div>
+</ion-content>

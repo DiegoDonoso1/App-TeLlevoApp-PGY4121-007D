@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="heading">
+    <h1>Registrate</h1>
+    <p>Por favor registrate para continuar usando la aplicación</p>
+  </div>
+  <div class="email-login">
+    <p>Ingresa tus datos</p>
+    <div class="formfield">
+      <input type="text" name="email" id="email" [(ngModel)]=email  autocomplete="off">
+      <label for="email" placeholder="Correo">Correo</label>
+    </div>
+    <div class="formfield">
+      <input type="password" name="password" [(ngModel)]=password  id="password">
+      <label for="password" placeholder="Contraseña">Contraseña</label>
+    </div>
+    <div class="login-button">
+      <ion-button (click)="tryRegistration()" color="success"class="login">Registrarse</ion-button>
+    </div>
+  </div>
+
+</ion-content>

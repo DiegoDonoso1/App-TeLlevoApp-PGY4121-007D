@@ -1,0 +1,36 @@
+.heading {
+  margin-top: 5vh;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    color: #838383;
+  }
+}
+
+.paragraph {
+  text-align: center;
+  color: #838383;
+}
+
+.driver {
+  text-align: center;
+  ion-button {
+    width: 70%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.6rem;
+  }
+}
+
+.rider {
+  text-align: center;
+  margin-top: 5vh;
+  ion-button {
+    width: 70%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.6rem;
+  }
+}

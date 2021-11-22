@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Editar cuenta</ion-title>
+    <ion-button color="primary" size="small" fill="clear" routerLink="/house" slot="start">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="manage">
+    <ion-list>
+      <ion-item *ngFor="let user of users">
+        <ion-label>{{user.email}}</ion-label>
+        <ion-button color="success" (click)="editName(user)">
+          <ion-icon name="create-outline"></ion-icon>
+        </ion-button>
+        <ion-button color="medium" (click)="deleteUser(user)">
+          <ion-icon name="trash-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

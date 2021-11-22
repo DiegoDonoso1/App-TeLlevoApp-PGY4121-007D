@@ -1,0 +1,24 @@
+<ion-content>
+  <div class="heading">
+    <h1>Inicia sesión</h1>
+    <p>Por favor inicia para continuar usando la aplicación</p>
+  </div>
+  <div class="email-login">
+    <p>Ingresa tus datos</p>
+    <div class="formfield">
+      <input type="text" [(ngModel)]="email" name="email" id="email"  autocomplete="off">
+      <label for="email" placeholder="Correo">Correo</label>
+    </div>
+    <div class="formfield">
+      <input type="password" [(ngModel)]="password" name="password"  id="password">
+      <label for="password" placeholder="Contraseña">Contraseña</label>
+    </div>
+    <div class="other-links">
+      <ion-button fill="clear" routerLink="/recover" class="forgot">¿Olvidó su Contraseña? </ion-button >
+    </div>
+    <div class="login-button">
+      <ion-button (click)="tryLogin()" (click)="ionViewDidLeave()" color="success"class="login">Ingresar</ion-button>
+    </div>
+  </div>
+
+</ion-content>

@@ -1,0 +1,79 @@
+.heading {
+  margin-top: 10vh;
+  text-align: center;
+  h1 {
+    font-size: 2rem;
+  }
+  p {
+    color: #838383;
+    margin: 10px;
+  }
+}
+
+.email-login {
+  margin-top: 45px;
+  text-align: center;
+
+  .formfield {
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  .formfield > input,
+  .formfield > label {
+    padding: 1.4em;
+    margin: 0.5em;
+    width: 87%;
+  }
+
+  .formfield > input {
+    border: 1px solid #ddd;
+    outline: none;
+  }
+
+  .formfield > label {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: #ccc;
+    padding-left: 40px;
+  }
+  input:focus + label,
+  input:valid + label {
+    font-size: 1rem;
+    width: auto;
+    height: 1.3em;
+    padding: 0px 0.5em 0px 0.5em;
+    margin: 0px;
+    background: #ffffff;
+    transition: 0.2s ease-in-out;
+    top: 0em;
+    left: 2em;
+  }
+}
+
+.other-links {
+  margin-left: 2%;
+  display: flex;
+  justify-content: space-between;
+
+  .forgot {
+    margin-right: 7%;
+  }
+}
+
+.login-button {
+  text-align: center;
+  margin-top: 25px;
+  .login {
+    width: 85%;
+    height: 50px;
+    text-transform: none;
+    font-size: 1.6rem;
+  }
+}
